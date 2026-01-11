@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '../theme/app_colors.dart';
-import 'event_details_screen.dart';
+import 'package:family_saving_app/theme/app_colors.dart';
+import 'event_details_page.dart';
 
 class EventsScreen extends StatelessWidget {
   const EventsScreen({super.key});

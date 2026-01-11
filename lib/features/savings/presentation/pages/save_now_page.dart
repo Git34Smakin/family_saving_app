@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '../widgets/custom_button.dart';
-import '../widgets/custom_input.dart';
+import 'package:family_saving_app/widgets/custom_button.dart';
+import 'package:family_saving_app/widgets/custom_input.dart';
 
 class SaveNowScreen extends StatelessWidget {
   const SaveNowScreen({super.key});

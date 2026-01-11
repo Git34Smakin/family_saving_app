@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import '../theme/app_colors.dart';
-import '../widgets/custom_button.dart';
-import '../widgets/custom_input.dart';
-import 'home_screen.dart';
+import 'package:family_saving_app/features/savings/presentation/pages/home_page.dart';
+import 'package:family_saving_app/widgets/custom_button.dart';
+import 'package:family_saving_app/widgets/custom_input.dart';
+import 'package:family_saving_app/theme/app_colors.dart';
 
 class SignUpScreen extends StatefulWidget {
   const SignUpScreen({super.key});
@@ -36,7 +36,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              const Text(
+              Text(
                 "Sign Up",
                 style: TextStyle(
                   fontSize: 28,
