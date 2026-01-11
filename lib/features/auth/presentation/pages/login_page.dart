@@ -1,5 +1,5 @@
 import 'package:family_saving_app/widgets/custom_button.dart';
-import 'package:family_saving_app/widgets/custom_textfield.dart';
+import 'package:family_saving_app/widgets/custom_input.dart';
 import 'package:flutter/material.dart';
 
 class LoginPage extends StatelessWidget {
@@ -15,12 +15,16 @@ class LoginPage extends StatelessWidget {
         padding: const EdgeInsets.all(16),
         child: Column(
           children: [
-            CustomTextField(
+            CustomInput(
+              hintText: "Enter phone number",
               controller: phoneController,
-              hint: "Enter phone number",
+              keyboardType: TextInputType.phone,
             ),
             const SizedBox(height: 20),
-            CustomButton(text: "Continue", onPressed: () {}),
+            CustomButton(
+              text: "Continue",
+              onPressed: () => Navigator.pushNamed(context, '/otp'),
+            ),
           ],
         ),
       ),

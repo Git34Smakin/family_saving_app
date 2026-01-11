@@ -6,4 +6,5 @@ class AppColors {
   static const Color textDark = Colors.black87;
   static const Color textLight = Colors.white;
   static const Color grey = Colors.grey;
+  static const Color secondary = Color(0xFF43A047);
 }
